@@ -24,6 +24,16 @@ def lines_printed_backwards(lines_list):
     return line
 
 
+def lines_printed_random(lines_list):
+    """
+    prints lines randomly 
+    """
+
+    random.shuffle(lines_list)
+    for line in lines_list:
+        print(line)
+
+
 # print(get_file_lines(poem))
 # lines_printed_backwards(get_file_lines(poem))
 # lines_printed_random(get_file_lines(poem))
