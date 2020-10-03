@@ -34,7 +34,16 @@ def lines_printed_random(lines_list):
         print(line)
 
 
+def lines_printed_custom(lines_list):
+    """
+    prints 3 random lines creating a short poem like a haiku
+    """
+    haiku = random.sample(lines_list, 3)
+    for line in haiku:
+        print(line)
+
+
 # print(get_file_lines(poem))
 # lines_printed_backwards(get_file_lines(poem))
 # lines_printed_random(get_file_lines(poem))
-lines_printed_random(get_file_lines(poem))
+lines_printed_custom(get_file_lines(poem))
