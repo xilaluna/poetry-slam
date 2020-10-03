@@ -43,7 +43,7 @@ def lines_printed_custom(lines_list):
         print(line)
 
 
-# print(get_file_lines(poem))
-# lines_printed_backwards(get_file_lines(poem))
-# lines_printed_random(get_file_lines(poem))
+print(get_file_lines(poem))
+lines_printed_backwards(get_file_lines(poem))
+lines_printed_random(get_file_lines(poem))
 lines_printed_custom(get_file_lines(poem))
